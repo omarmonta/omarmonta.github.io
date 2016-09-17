@@ -1,4 +1,26 @@
 p
 {
-	color:blue;
+	<style type="text/css">
+	
+	#menu li {
+
+				padding: 20px;
+			}
+
+	#menu li {
+				display: inline;
+		 	}	
+	
+	#menu li a {
+				font-family: verdana;
+				font-size:20px;
+				text-decoration: none;
+				background-color: #606060;
+				color: #000000; 
+				}
+	#menu li a:hover {
+				background-color: #000000;
+				color: #ffffff;
+				}
+</style>
 }
