@@ -1,26 +1,62 @@
-p
-{
-	<style type="text/css">
-	
-	#menu li {
+* {
+	margin: 0:;
+	padding: 0;
+	}
+body{
 
-				padding: 20px;
-			}
-
-	#menu li {
-				display: inline;
-		 	}	
-	
-	#menu li a {
-				font-family: verdana;
-				font-size:20px;
-				text-decoration: none;
-				background-color: #606060;
-				color: #000000; 
-				}
-	#menu li a:hover {
-				background-color: #000000;
-				color: #ffffff;
-				}
-</style>
+background-image: url(../img/fondo.jpg);
+background-repeat: no-repeat;
+background-size: cover;
 }
+
+ul, ol {
+	list-style: none;
+}
+
+header {
+	width: 100%
+}
+ nav {
+ 		width: 1000px;
+		margin:30px auto;
+		overflow: hidden;
+		border-radius: 10px;
+		background: orange;
+		border-bottom:1px solid #808080;
+		color:white;
+		
+	}
+h1{
+font-family: 'Shadows Into Light', verdana;
+color: white;
+margin-left: 10px;
+font-size: 25px;
+text-align: center; 
+}
+
+.menu {
+	width:100%;
+	display:table;
+	table-layout: fixed;
+	float: left;
+}
+
+.menu li {
+	display:table-cell;
+	overflow:hidden;
+	width:100%;
+	border-right: 1px solid #5c5c5c;
+	border-left: 1px solid rgba(255,255,255,.2);
+	font-family: verdana;
+}
+
+.menu li a:hover {
+	background-color: #FFA500;
+	color: #ffffff;
+	margin-top: -5px;
+	padding-bottom: 10px;
+	margin-left: 5px;
+	margin-right: 5px;
+	font-size: 20px;
+}
+
